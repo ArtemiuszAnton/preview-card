@@ -75,6 +75,7 @@ header .button:hover {
 
 .preview-landing {
     display: flex;
+    margin-top: 267px;
 }
 
 .preview-landing .left h1 {
@@ -104,15 +105,18 @@ header .button:hover {
 }
 
 .preview-landing .right-img {
-    background-image: url(./assets/Rectangle.png);
+    background-image: url(./assets/Group\ 7.png);
     background-repeat: no-repeat;
     width: 590px;
     height: 360px;
     background-size: contain;
+    position: relative;
+    left: 230px;
 }
 
 .statistic {
     position: relative;
+    margin-top: 203px;
 }
 
 .statistic .table {
@@ -164,17 +168,116 @@ header .button:hover {
 
 .advantages {}
 
-.advantages h1 {
+.advantages .hat h1 {
     color: #001A49;
     text-align: center;
     font: 800 46px Mulish;
     margin-top: 194px;
 }
 
-.advantages p {
+.advantages .hat p {
     color: #4F596A;
     text-align: center;
     font: 400 20px Mulish;
 }
 
-.advantages 
+.advantages .blocks {
+    margin-top: 61px;
+}
+
+.advantages .block {
+    width: 1120px;
+    border-radius: 21px;
+    background: #EEF7FF;
+    display: flex;
+    padding: 50px 0;
+}
+
+
+
+.advantages .block:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.advantages .blocks .block .triangles {
+    background-image: url(./assets/Group\ 8.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 46px;
+}
+
+.advantages .blocks .block nav {
+    margin-left: 20px;
+}
+
+.advantages .blocks .block h2 {
+    color: #001A49;
+    font: 800 24px Mulish;
+
+}
+
+.advantages .blocks .block p {
+    color: #4F596A;
+    font: 400 16px Mulish;
+    width: 960px;
+    margin-top: 20px;
+}
+
+.enroll {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.enroll .enrl h1 {
+    color: #3D75BF;
+    font: 800 100px Mulish;
+    margin-top: 122px;
+}
+
+.enroll .enrl h2 {
+    color: #001A49;
+    font: 800 50px Mulish;
+}
+
+.enroll .button {
+    width: 180px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+    color: #FFF;
+    font: 700 16px Mulish;
+    padding: 17px 0;
+    text-align: center;
+    margin: 12px 0 0 475px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 129px;
+}
+
+footer .foot-left .hs {
+    display: flex;
+}
+
+.foot-left .hs h3 {
+    color: #3C82F4;
+    font: 800 37px Mulish;
+}
+
+.foot-left .hs h2 {
+    color: #001A49;
+    font: 800 37px Mulish;
+    margin-left: 20px;
+}
+
+footer p {
+    color: #707070;
+    font: 500 27px Mulish;
+}
+
+
+
