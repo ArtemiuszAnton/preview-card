@@ -26,7 +26,7 @@
 
 body {
     width: 1120px;
-    margin: auto;
+    margin: auto auto 85px auto;
 }
 
 header {
@@ -52,6 +52,10 @@ header nav p:not(:last-child) {
 header nav p {
     color: #001A49;
     font: 700 16px Mulish;
+}
+
+header nav p:hover {
+    text-decoration: underline;
 }
 
 header .button {
@@ -85,11 +89,7 @@ header .button:hover {
 
 .preview-landing .left p {
     color: #4F596A;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    font: 400 20px Mulish;
     margin-top: 20px;
 }
 
@@ -102,6 +102,10 @@ header .button:hover {
     padding: 17px 0;
     text-align: center;
     margin-top: 35px;
+}
+
+.preview-landing .left .button:hover {
+    background: linear-gradient(44deg, #0d3457 0%, #3D75BF 100%);
 }
 
 .preview-landing .right-img {
@@ -253,6 +257,10 @@ header .button:hover {
     margin: 12px 0 0 475px;
 }
 
+.enroll .button:hover {
+    background: linear-gradient(44deg, #0d3457 0%, #3D75BF 100%);
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -278,6 +286,3 @@ footer p {
     color: #707070;
     font: 500 27px Mulish;
 }
-
-
-
